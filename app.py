@@ -7,7 +7,7 @@ import pydeck as pdk
 # ============================================================
 st.set_page_config(page_title="Peta UMKM Sulawesi Barat", layout="wide")
 
-st.title("🗺️ Aplikasi Peta UMKM Sulawesi Barat (Tanpa Instal Library)")
+st.title("🗺️ Aplikasi Peta UMKM Sulawesi Barat")
 st.write("Peta ini menampilkan lokasi UMKM di Sulawesi Barat.")
 
 # ============================================================
@@ -104,5 +104,6 @@ else:
 # ============================================================
 st.subheader("📄 Data UMKM")
 st.dataframe(df_filtered.reset_index(drop=True))
+
 
 
